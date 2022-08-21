@@ -50,6 +50,9 @@
 		E49F8ECA28B2115F001D98B9 /* xcode_paths_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcode_paths_2.png; sourceTree = "<group>"; };
 		E49F8ECD28B218B9001D98B9 /* xcode_use_custom_directory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcode_use_custom_directory.png; sourceTree = "<group>"; };
 		E49F8ECE28B218B9001D98B9 /* xcode_edit_scheme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcode_edit_scheme.png; sourceTree = "<group>"; };
+		E49F8ED028B21FD0001D98B9 /* viking_room.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = viking_room.obj; sourceTree = "<group>"; };
+		E49F8ED228B21FD0001D98B9 /* viking_room.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viking_room.png; sourceTree = "<group>"; };
+		E49F8ED328B21FD0001D98B9 /* texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 		E49F8E9C28B0D500001D98B9 /* VKTutorialMacOS */ = {
 			isa = PBXGroup;
 			children = (
+				E49F8ECF28B21FD0001D98B9 /* models */,
+				E49F8ED128B21FD0001D98B9 /* textures */,
 				E49F8EBF28B20363001D98B9 /* shaders */,
 				E49F8EB128B0D531001D98B9 /* VKTutorialMacOS.entitlements */,
 				E49F8E9D28B0D500001D98B9 /* main.cpp */,
@@ -128,6 +133,23 @@
 				E49F8ECA28B2115F001D98B9 /* xcode_paths_2.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		E49F8ECF28B21FD0001D98B9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E49F8ED028B21FD0001D98B9 /* viking_room.obj */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E49F8ED128B21FD0001D98B9 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				E49F8ED228B21FD0001D98B9 /* viking_room.png */,
+				E49F8ED328B21FD0001D98B9 /* texture.jpg */,
+			);
+			path = textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
